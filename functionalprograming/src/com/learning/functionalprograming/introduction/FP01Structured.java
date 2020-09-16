@@ -2,6 +2,8 @@ package com.learning.functionalprograming.introduction;
 
 import com.sun.tools.javac.util.List;
 
+// Structured approach
+
 public class FP01Structured {
 
 	public static void main(String[] args) {
@@ -12,7 +14,14 @@ public class FP01Structured {
 
 	private static void printNumberInListUsingStructuredPrograming(List<Integer> numberList) {
 		for (Integer integer : numberList) {
-			System.out.println(integer);
+			
+// print all the number in the list
+//			System.out.println(integer);
+			
+// print all the even number in the list			
+			if (integer%2==0) {
+				System.out.println(integer);
+			}
 			
 		}
 		

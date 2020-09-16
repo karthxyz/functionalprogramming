@@ -1,0 +1,8 @@
+Stream->
+	stream()
+	map()
+	filter()
+	forEach()
+
+MethodReference->
+	System.out::println
