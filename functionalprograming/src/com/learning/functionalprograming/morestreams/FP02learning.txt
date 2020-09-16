@@ -1,2 +1,7 @@
 Stream->
-	reduce
+	reduce()
+	sorted()
+		Comparator.naturalOrder()
+		Comparator.comparing()
+		Comparator.reverseOrder()
+	distinct()

@@ -1,0 +1,25 @@
+FunctionalInterface
+ -. only one abstract method
+ 	Consumer -> takes one argument and does not return
+ 	Predicate -> takes one argument and returns boolean
+ 	Function -> takes one argument and returns a result
+ 	BinaryOperator -> takes 2 argument and returns same type (Tip: if name has 'operator' -input and output are of same type)
+ 	Supplier -> no argument and returns a result
+ 	UnaryOperator -> takes one argument and returns a result
+ 	BiPredicate -> takes two argument and returns boolean
+ 	Bifunction -> takes 2 argument and returns a result(output can be different type)
+ 	BiConsumer -> takes 2 argument and does not return
+ 	
+ BehaviorParameterization
+     --passing behavior(method) as parameter to a method
+     	filterAndPrint(numbers, number->number%3==0);
+     	
+     for Primitive data types	
+     	//IntBinaryOperator
+		//IntConsumer
+		//IntFunction
+		//IntPredicate
+		//IntSupplier
+		//IntToDoubleFunction
+		//IntToLongFunction
+		//IntUnaryOperator
