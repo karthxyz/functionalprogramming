@@ -1,0 +1,21 @@
+Stream.OF
+IntStream
+Arrays.stream
+range
+rangeClosed
+iterate for intstream instead of range
+limit - limit the stream
+sum
+peek
+peek
+boxed - primitive to wrapper
+
+Collection Collection
+replaceAll
+removeIf
+
+BigInteger
+
+HigherOrder function - function which returns another function
+
+Parallel - run the stream parallelly

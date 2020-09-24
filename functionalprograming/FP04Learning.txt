@@ -1,0 +1,32 @@
+Stream
+	->anyMatch - boolean if any match
+	-allMatch - boolean true if all match
+	-noneMatch - boolean true if no match
+	-skip - skip elements
+	-limit  limit element
+	-takeWhile take element until a condition is met
+	-dropWhile - drop element until a condition is met
+	-max - 
+	-min
+	-findFirst
+	-findAny - returns any element matching a criteria
+	-sum
+	-avg
+	-count
+	
+collect	
+	groupby
+		maxBy
+		minBy
+		counting
+		mapping
+
+	
+Comparator	
+	Comparator.comparing
+		reversed()
+		thenComparing
+		comparingInt -> incase of primitive, use this, avoid autoboxing autounboxing
+		comparingLong
+		thenComparingInt
+		
